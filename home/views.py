@@ -4,4 +4,4 @@ from django.conf import settings
 
 def homepage(request):
     restaurant_name= getattr(settings, "RESTAURANT_NAME","My Restaurant")
-    return render(request,"homepage.html",{'restaurant_name'})
+    return render(request,"homepage.html",{'restaurant_name':restaurant_name})
