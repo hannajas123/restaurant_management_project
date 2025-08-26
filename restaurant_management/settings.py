@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-
+RESTAURANT_NAME="Hanna 's Bistro"
 # Application definition
 
 INSTALLED_APPS = [
