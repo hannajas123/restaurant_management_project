@@ -28,6 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 RESTAURANT_NAME="Hanna 's Bistro"
+
+RESTAURANT_PHONE ="1234567890"
 # Application definition
 
 INSTALLED_APPS = [
